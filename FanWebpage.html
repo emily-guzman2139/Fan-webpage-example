@@ -1,0 +1,65 @@
+<!--GUZMAN, EMILY
+LAB #03 FAN WEB PAGE
+PROJECT DESCRIPTION: THIS LAB IS A FAN WEB PAGE.-->
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--HEADER WITH H1 TAGS-->
+        <header>
+            <h1>Stray Kids Fan Webpage</h1>
+        </header>
+        <main>
+            <!--PICTURE OF STRAY KIDS-->
+            <p>
+              <img src="c:\Users\18326\Downloads\SKZ_VMAS.jpg" alt="Stray Kids at VMAs" width="1000">
+            </p>
+            <!--FIRST PARAGRAPH-->
+            <p>
+                Stray Kids is a kpop boy band formed by JYP entertainment. The band members are Bangchan, Lee Know, Changbin, Hyunjin, Han, Felix, Seungmin, and Jeongin known as I.N. Stray Kids fans are called STAYS. The fandom slogan is "You make Stray Kids STAY".
+            </p>
+            <!--SECOND PARAGRAPH-->
+            <p>
+                Visit the <a href="https://straykids.jype.com/" target="_blank">Stray Kids official website</a> or a <a href="https://en.wikipedia.org/wiki/Stray_Kids" target="_blank">Wikipedia article</article></a> for more information about the band.
+            </p>
+        </main>
+        <!--FORM FOR JOINING STRAY KIDS FAN CLUB-->
+     <form action="https://wp.zybooks.com/form-viewer.php" method="POST" enctype="multipart/form-data">
+        <!--INPUT OF FULL NAME AND EMAIL-->
+        <div>
+            <!--REQUIRED ATTRIBUTE FOR NAME-->
+            <label for="fullName">Full Name:</label>
+            <input type="fullName" name="fullName" id="fullName" required>
+        </div>
+        <div>
+            <p>
+                <!--REQUIRED ATTRIBUTE FOR EMAIL FIELD-->
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            </p>
+        </div>
+        <!--USER'S IMAGE-->
+        <div>
+            <p>
+            <label for="picture">Upload picture:</label>
+            <input type="file" name="picture" id="picture">
+            </p>
+        </div>
+        <!--DESCRIPTION ABOUT THE USER-->
+        <p>
+            <textarea id="about" name="about" rows="3" cols="50" placeholder="Description about the you"></textarea>
+        </p>
+        <!--SUBMIT BUTTON-->
+        <div>
+            <input type="submit">
+        </div>
+     </form>
+        
+        <!--FOOTER WITH MY NAME-->
+        <footer>
+            Fan web page by Emily Guzman
+        </footer>
+    </body>
+</html>
